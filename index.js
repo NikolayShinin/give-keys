@@ -16,7 +16,7 @@ async function main() {
         }
         console.log('записи еще нет')
     } catch (e) {
-
+        console.log(e)
     }
 }
 function getRandomArbitrary(min, max) {
