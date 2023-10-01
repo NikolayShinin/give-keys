@@ -25,4 +25,4 @@ function getRandomArbitrary(min, max) {
 
 setInterval(()=> {
     main()
-},getRandomArbitrary(60000, 180000))
+},getRandomArbitrary(300000, 600000))
