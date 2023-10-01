@@ -1,0 +1,26 @@
+{
+  "name": "give-keys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolayShinin/give-keys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolayShinin/give-keys/issues"
+  },
+  "homepage": "https://github.com/NikolayShinin/give-keys#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.63.0"
+  }
+}
