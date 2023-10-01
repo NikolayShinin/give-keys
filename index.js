@@ -5,6 +5,7 @@ import {config} from 'dotenv'
 config()
 
 const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, {polling: true});
+bot.sendMessage(437369676, 'работаю')
 async function main() {
     try {
         const res = await fetch('https://72dom.com/give-keys')
